@@ -20,7 +20,6 @@ while q :
         if 0 <= nx < n and 0 <= ny < m and tomatos[nx][ny] == 0:
             q.append((nx, ny))
             tomatos[nx][ny] = tomatos[x][y] + 1
-            q.append((nx, ny))
 
 ans = 0
 for i in tomatos:
